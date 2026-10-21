@@ -1,0 +1,20 @@
+{
+  "name": "KR-106",
+  "vendor": "sd88me",
+  "uid": "K106",
+  "version": 1000,
+  "targets": ["armv7", "aarch64"],
+  "so": "kr106.so",
+  "params": "params.json",
+  "build": {
+    "root": "..",
+    "sources": ["vst/engine.cpp"],
+    "cflags": ["-std=gnu++17", "-Isrc", "-O2"],
+    "libs": ["-lm"]
+  },
+  "layout": "layout.conf",
+  "art": "html",
+  "presets": "presets.json",
+  "skin_post": "skin_post.py",
+  "defines": {}
+}

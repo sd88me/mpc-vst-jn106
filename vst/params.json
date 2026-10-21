@@ -1,0 +1,401 @@
+{
+ "name": "KR-106",
+ "params": [
+  {
+   "key": "tuning",
+   "name": "Tuning",
+   "min": -1.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "master_vol",
+   "name": "Volume",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3
+  },
+  {
+   "key": "porta_rate",
+   "name": "Portamento",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "bender_dco",
+   "name": "Bender DCO",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "bender_vcf",
+   "name": "Bender VCF",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "bender_lfo",
+   "name": "Bender LFO",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "porta_mode",
+   "name": "Porta Mode",
+   "options": [
+    "Mono",
+    "Poly I",
+    "Poly II"
+   ],
+   "default": "Poly I"
+  },
+  {
+   "key": "transpose",
+   "name": "Transpose",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off"
+  },
+  {
+   "key": "hold",
+   "name": "Hold",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off"
+  },
+  {
+   "key": "arpeggio",
+   "name": "Arpeggio",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off"
+  },
+  {
+   "key": "arp_mode",
+   "name": "Arp Mode",
+   "options": [
+    "Up",
+    "Up/Down",
+    "Down"
+   ],
+   "default": "Up"
+  },
+  {
+   "key": "arp_range",
+   "name": "Arp Range",
+   "options": [
+    "1 Oct",
+    "2 Oct",
+    "3 Oct"
+   ],
+   "default": "1 Oct"
+  },
+  {
+   "key": "arp_rate",
+   "name": "Arp Rate",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.234375
+  },
+  {
+   "key": "lfo_rate",
+   "name": "LFO Rate",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.24
+  },
+  {
+   "key": "lfo_delay",
+   "name": "LFO Delay",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "lfo_mode",
+   "name": "LFO Mode",
+   "options": [
+    "Auto",
+    "Manual"
+   ],
+   "default": "Auto"
+  },
+  {
+   "key": "dco_lfo",
+   "name": "DCO LFO",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "dco_pwm",
+   "name": "DCO PWM",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5
+  },
+  {
+   "key": "pwm_mode",
+   "name": "PWM Mode",
+   "options": [
+    "LFO",
+    "Manual",
+    "Env"
+   ],
+   "default": "Manual"
+  },
+  {
+   "key": "pulse",
+   "name": "Pulse",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "saw",
+   "name": "Saw",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "sub_sw",
+   "name": "Sub",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "octave",
+   "name": "Octave",
+   "options": [
+    "16'",
+    "8'",
+    "4'"
+   ],
+   "default": "8'"
+  },
+  {
+   "key": "dco_sub",
+   "name": "Sub Level",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 1.0
+  },
+  {
+   "key": "dco_noise",
+   "name": "Noise",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "hpf",
+   "name": "HPF",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "default": "1"
+  },
+  {
+   "key": "vcf_freq",
+   "name": "VCF Freq",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 1.0
+  },
+  {
+   "key": "vcf_res",
+   "name": "VCF Res",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "vcf_env_inv",
+   "name": "VCF Env Polarity",
+   "options": [
+    "Normal",
+    "Inverted"
+   ],
+   "default": "Normal"
+  },
+  {
+   "key": "vcf_env",
+   "name": "VCF Env",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "vcf_lfo",
+   "name": "VCF LFO",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "vcf_kbd",
+   "name": "VCF Kbd",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0
+  },
+  {
+   "key": "vca_mode",
+   "name": "VCA Mode",
+   "options": [
+    "Env",
+    "Gate"
+   ],
+   "default": "Gate"
+  },
+  {
+   "key": "vca_level",
+   "name": "VCA Level",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5
+  },
+  {
+   "key": "env_a",
+   "name": "Attack",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.25
+  },
+  {
+   "key": "env_d",
+   "name": "Decay",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.25
+  },
+  {
+   "key": "env_s",
+   "name": "Sustain",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.9
+  },
+  {
+   "key": "env_r",
+   "name": "Release",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.25
+  },
+  {
+   "key": "adsr_mode",
+   "name": "Model",
+   "options": [
+    "J60",
+    "J106"
+   ],
+   "default": "J106"
+  },
+  {
+   "key": "chorus_off",
+   "name": "Chorus Off",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off",
+   "momentary": true
+  },
+  {
+   "key": "chorus_i",
+   "name": "Chorus I",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "chorus_ii",
+   "name": "Chorus II",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off"
+  },
+  {
+   "key": "voices",
+   "name": "Voices",
+   "options": [
+    "6",
+    "8",
+    "10"
+   ],
+   "default": "6"
+  },
+  {
+   "key": "oversample",
+   "name": "VCF Oversample",
+   "options": [
+    "1x",
+    "2x",
+    "4x"
+   ],
+   "default": "2x"
+  },
+  {
+   "key": "osc_mode",
+   "name": "Oscillators",
+   "options": [
+    "Wavetable",
+    "PolyBLEP"
+   ],
+   "default": "PolyBLEP"
+  },
+  {
+   "key": "ignore_vel",
+   "name": "Ignore Velocity",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "arp_limit_kbd",
+   "name": "Arp Limit Keyboard",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  },
+  {
+   "key": "mono_retrig",
+   "name": "Mono Retrigger",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "On"
+  }
+ ]
+}
