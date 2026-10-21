@@ -184,13 +184,11 @@ QLINKS = {
 }
 
 SETTINGS = """[tab SETTINGS]
-enum_h cx=380 cy=230 label="VOICES" key=voices sw=140 sh=56
-enum_h cx=900 cy=230 label="VCF OVERSAMPLE" key=oversample sw=140 sh=56
-enum_h cx=380 cy=390 label="OSCILLATORS" key=osc_mode sw=190 sh=56
-enum_h cx=900 cy=390 label="IGNORE VELOCITY" key=ignore_vel sw=140 sh=56
-enum_h cx=380 cy=550 label="ARP LIMIT TO KEYBOARD" key=arp_limit_kbd sw=140 sh=56
-enum_h cx=900 cy=550 label="MONO RETRIGGER" key=mono_retrig sw=140 sh=56
-qlinks "SETTINGS" = voices,oversample,osc_mode,ignore_vel,arp_limit_kbd,mono_retrig
+enum_h cx=380 cy=230 label="VCF OVERSAMPLE" key=oversample sw=210 sh=56
+enum_h cx=900 cy=230 label="OSCILLATORS" key=osc_mode sw=190 sh=56
+enum_h cx=380 cy=390 label="IGNORE VELOCITY" key=ignore_vel sw=140 sh=56
+enum_h cx=900 cy=390 label="ARP LIMIT TO KEYBOARD" key=arp_limit_kbd sw=140 sh=56
+enum_h cx=380 cy=550 label="MONO RETRIGGER" key=mono_retrig sw=140 sh=56
 """
 
 
