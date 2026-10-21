@@ -266,12 +266,36 @@ struct ADSR
     return DecRelTauJ6(slider) * 2397.9f;
   }
 
-  // J60 ADSR stubs -- same IR3R01 chip and circuit as J6.
-  // TODO: J60 has different pot + shunt resistors (50KB + 22K/18K).
-  static float AttackTauJ60(float slider) { return AttackTauJ6(slider); }
-  static float DecRelTauJ60(float slider) { return DecRelTauJ6(slider); }
-  static float AttackMsJ60(float slider) { return AttackMsJ6(slider); }
-  static float DecRelMsJ60(float slider) { return DecRelMsJ6(slider); }
+  // J60: same IR3R01 law as J6, different slider wiring (service notes).
+  // J6 (OPH165 panel B): 100KB pot with a 39K pull-up across the top half
+  // (attack adds 3.3K at the bottom), so the wiper voltage bends upward.
+  // J60: 50KB plain dividers (18K top; attack also 1.8K bottom) read by
+  // the CPU's A/D, so the voltage is linear in the slider. Assuming the
+  // CPU's D/A spans the same IR3R01 control range as the J6 slider, a J60
+  // position x gives the J6 curve at the J6 position with the same
+  // normalised voltage. Endpoints are unchanged; only the taper differs.
+  static float J6SliderVolts(float x, float bottomK)
+  {
+    float top = 100.f * (1.f - x), lo = 100.f * x + bottomK;
+    float topPar = top * 39.f / (top + 39.f);
+    return lo / (lo + topPar);
+  }
+  static float J60ToJ6Slider(float x, float bottomK)
+  {
+    x = std::clamp(x, 0.f, 1.f);
+    float v0 = J6SliderVolts(0.f, bottomK), v1 = J6SliderVolts(1.f, bottomK);
+    float target = v0 + x * (v1 - v0);
+    float a = 0.f, b = 1.f;
+    for (int i = 0; i < 24; i++) {
+      float m = 0.5f * (a + b);
+      (J6SliderVolts(m, bottomK) < target ? a : b) = m;
+    }
+    return 0.5f * (a + b);
+  }
+  static float AttackTauJ60(float slider) { return AttackTauJ6(J60ToJ6Slider(slider, 3.3f)); }
+  static float DecRelTauJ60(float slider) { return DecRelTauJ6(J60ToJ6Slider(slider, 0.f)); }
+  static float AttackMsJ60(float slider) { return AttackTauJ60(slider) * 1791.8f; }
+  static float DecRelMsJ60(float slider) { return DecRelTauJ60(slider) * 2397.9f; }
 
   // J106 attack tau (for ParamValue display)
   static float AttackTauJ106(float slider)
