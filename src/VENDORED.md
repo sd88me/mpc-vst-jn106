@@ -10,3 +10,10 @@
 
 Not taken: the JUCE processor/editor, preset manager, MIDI learn, SysEx, scope, keybed and host sync. `vst/engine.cpp` redoes
 what the processor does around the DSP (parameter push, MIDI decode, master volume, denormal flush).
+
+## Local changes to the vendored DSP
+
+- `dsp/KR106_DSP.h`: idle voices are skipped (`KR106_SKIP_IDLE_VOICES`, CPU on Gen1 MPCs).
+- `dsp/KR106Voice.h`: in J106 mode the DCO pitch is held between firmware ticks (4.2 ms) and rounded to an 8253
+  counter value at 8 MHz / 2, 4 or 8 (RANGE 4', 8', 16'), per the Juno-106 Service Notes ("OSC, DCO" and the D/A
+  timing chart): the slave CPU writes divide data once per main loop. `mDcoStepped` switches it off.

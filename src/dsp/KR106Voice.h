@@ -164,6 +164,14 @@ public:
   float mLfoEnvAmp        = 0.f;   // LFO onset envelope (set by DSP per block)
   float mFwTickAccum      = 0.f;   // main loop tick accumulator [0, 1)
   float mFwTickStep       = 0.f;   // ticks per sample (kTickRate / sampleRate)
+
+  // J106 DCO pitch is CPU data, not a CV: once per main loop the slave CPU sums key, LFO, bender, portamento and
+  // tune into a divide value for an 8253 counter clocked at 8 MHz / 2, 4 or 8 (RANGE 4', 8', 16'), and the
+  // counter output is the oscillator (Juno-106 Service Notes, "OSC, DCO" and the D/A timing chart). So the
+  // pitch moves in 4.2 ms steps and lands on clock / N. mDcoStepped turns this on (local addition, not upstream).
+  bool  mDcoStepped       = true;
+  bool  mDcoHeldValid     = false;
+  float mDcoHeldFreq      = 0.f;   // Hz, latched at the last firmware tick
   float mFwEnvPending     = 0.f;   // computed by FirmwareTick, not yet written to DAC
   float mFwEnvNext        = 0.f;   // latched to DAC at VCA phase offset
   uint16_t mVcfDacPending = 0;     // computed by FirmwareTick, not yet written to DAC
@@ -1181,6 +1189,7 @@ public:
         {
           mFwTickAccum -= 1.f;
           FirmwareTick(lfoRaw);
+          mDcoHeldValid = false;   // recompute the DCO divide value below
           mVcfDacUpdated = false;
           mVcaDacUpdated = false;
         }
@@ -1235,6 +1244,18 @@ public:
       float pitchMod =
           mOctTranspose / 12.f + mPitchOffset + lfoSemitones / 12.f + mRawBend * mBendDco;
       float freq = baseFreq * powf(2.f, pitchMod);
+      if (mModel == kJ106 && mDcoStepped)
+      {
+        if (!mDcoHeldValid)
+        {
+          // 16' = 1 MHz, 8' = 2 MHz, 4' = 4 MHz into the 16-bit counter
+          float clk = 2.0e6f * exp2f(mOctTranspose / 12.f);
+          float n = std::clamp(roundf(clk / std::max(freq, 1.f)), 2.f, 65535.f);
+          mDcoHeldFreq = clk / n;
+          mDcoHeldValid = true;
+        }
+        freq = mDcoHeldFreq;
+      }
       float cps  = freq / mSampleRate;
 
       // Safety clamp — nothing to write, skip the inner 4× loop.
