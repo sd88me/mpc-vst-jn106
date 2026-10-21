@@ -1,8 +1,11 @@
 # JN-106 for MPC
 
-A six-voice polyphonic Juno-style synth plugin for Akai MPC OS standalone devices (MPC Live/One/X/Key, Force): the DSP of
-[Ultramaster KR-106](https://github.com/kayrockscreenprinting/ultramaster_kr106) by Karl LaRocca, on a realistic panel skin
-drawn for the MPC screen, with its 256 factory presets (128 Juno-60 and 128 Juno-106 patches) as native presets.
+A faithful, circuit-modelled and hardware-profiled six-voice Juno emulation for Akai MPC OS standalone devices (MPC
+Live/One/X/Key, Force). The DSP is [Ultramaster KR-106](https://github.com/kayrockscreenprinting/ultramaster_kr106) by Karl
+LaRocca: the IR3109 filter, BA662 VCA and MN3009 BBD chorus are modelled from the circuits, the 106's control firmware is
+reimplemented from its CPU disassembly, and the levels, cutoff and envelope curves are fitted to measurements of real
+hardware. This port checks it against the Roland service notes and schematics, and adds a realistic panel skin drawn for the
+MPC screen and the 256 factory presets (128 Juno-60 and 128 Juno-106 patches) as native presets. Juno-6, 60 and 106 voicings.
 
 ![LFO / DCO / HPF screen](docs/img/screenshot-lfo-dco.png)
 
