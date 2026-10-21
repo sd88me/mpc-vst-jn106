@@ -572,6 +572,11 @@ public:
     for (int vi = 0; vi < mActiveVoices; vi++)
     {
       auto& v = *mVoices[vi];
+#ifdef KR106_SKIP_IDLE_VOICES
+      // mpc-vst-kr106: a finished voice with the filter below self-oscillation adds nothing to the mix bus; skip it
+      // (the MPC port's CPU budget, docs/BENCH.md). Its filter and oscillator state stay where they were.
+      if (!v.GetBusy() && v.mVcfRes < 0.6f) continue;
+#endif
       v.mLfoEnvAmp = mLFO.mAmp;
       v.ProcessSamplesAccumulating(mModulations.data(), mMixBusOS.data(),
                                     kNumModulations, 0, nFrames);

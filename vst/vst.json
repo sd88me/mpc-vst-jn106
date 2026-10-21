@@ -3,14 +3,32 @@
   "vendor": "sd88me",
   "uid": "K106",
   "version": 1000,
-  "targets": ["armv7", "aarch64"],
+  "targets": [
+    "armv7",
+    "aarch64"
+  ],
   "so": "kr106.so",
   "params": "params.json",
   "build": {
     "root": "..",
-    "sources": ["vst/engine.cpp"],
-    "cflags": ["-std=gnu++17", "-Isrc", "-O2"],
-    "libs": ["-lm"]
+    "sources": [
+      "vst/engine.cpp"
+    ],
+    "cflags": [
+      "-std=gnu++17",
+      "-Isrc",
+      "-O3",
+      "-ffast-math",
+      "-fno-finite-math-only",
+      "-DKR106_SKIP_IDLE_VOICES"
+    ],
+    "libs": [
+      "-lm"
+    ],
+    "cflags_arm": [
+      "-mfpu=neon",
+      "-mfloat-abi=hard"
+    ]
   },
   "layout": "layout.conf",
   "art": "html",

@@ -346,8 +346,7 @@
    "name": "Voices",
    "options": [
     "6",
-    "8",
-    "10"
+    "8"
    ],
    "default": "6"
   },
@@ -356,10 +355,9 @@
    "name": "VCF Oversample",
    "options": [
     "1x",
-    "2x",
-    "4x"
+    "2x"
    ],
-   "default": "2x"
+   "default": "1x"
   },
   {
    "key": "osc_mode",

@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw
 HERE = os.path.dirname(os.path.abspath(__file__))
 A = os.path.join(HERE, "assets")
 W, H = 1280, 628
+Y_OFF = 86   # layout y = plugin y + 86 (Force Shadow's); art files stay in plugin coordinates
 PAGE = (27, 26, 26)
 
 
@@ -183,14 +184,22 @@ QLINKS = {
 }
 
 SETTINGS = """[tab SETTINGS]
-enum_h cx=380 cy=170 label="VOICES" key=voices sw=120 sh=64
-enum_h cx=900 cy=170 label="VCF OVERSAMPLE" key=oversample sw=120 sh=64
-enum_h cx=380 cy=330 label="OSCILLATORS" key=osc_mode sw=190 sh=64
-enum_h cx=900 cy=330 label="IGNORE VELOCITY" key=ignore_vel sw=120 sh=64
-enum_h cx=380 cy=490 label="ARP LIMIT TO KEYBOARD" key=arp_limit_kbd sw=120 sh=64
-enum_h cx=900 cy=490 label="MONO RETRIGGER" key=mono_retrig sw=120 sh=64
+enum_h cx=380 cy=230 label="VOICES" key=voices sw=140 sh=56
+enum_h cx=900 cy=230 label="VCF OVERSAMPLE" key=oversample sw=140 sh=56
+enum_h cx=380 cy=390 label="OSCILLATORS" key=osc_mode sw=190 sh=56
+enum_h cx=900 cy=390 label="IGNORE VELOCITY" key=ignore_vel sw=140 sh=56
+enum_h cx=380 cy=550 label="ARP LIMIT TO KEYBOARD" key=arp_limit_kbd sw=140 sh=56
+enum_h cx=900 cy=550 label="MONO RETRIGGER" key=mono_retrig sw=140 sh=56
 qlinks "SETTINGS" = voices,oversample,osc_mode,ignore_vel,arp_limit_kbd,mono_retrig
 """
+
+
+def shift(line):
+    """A layout line with its y (cy= or picture's y=) moved down by Y_OFF; art lines are unchanged."""
+    import re
+    if line.startswith("art "):
+        return line
+    return re.sub(r"\b(cy|y)=(\d+)", lambda m: "%s=%d" % (m.group(1), int(m.group(2)) + Y_OFF), line)
 
 
 class Skin:
@@ -313,7 +322,7 @@ class Skin:
             out.append("[tab %s]" % name)
             # later lines sit on top: knobs, then sliders (whose hidden label area reaches into what is below), then the rest
             rank = {"art": 0, "knob": 1, "slider_v": 2}
-            out += sorted(self.lines[name], key=lambda l: rank.get(l.split()[0], 3))
+            out += [shift(l) for l in sorted(self.lines[name], key=lambda l: rank.get(l.split()[0], 3))]
             out.append('qlinks "%s" = %s' % (name, QLINKS[name]))
             out.append("")
         out.append(SETTINGS)
