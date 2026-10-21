@@ -68,5 +68,5 @@ PARAMS = [
 
 if __name__ == "__main__":
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "vst", "params.json")
-    json.dump({"name": "JU-106", "params": PARAMS}, open(out, "w"), indent=1)
+    json.dump({"name": "JN-106", "params": PARAMS}, open(out, "w"), indent=1)
     print(len(PARAMS), "parameters")

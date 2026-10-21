@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw the realistic JU-106 skin: a panel and controls drawn from scratch (no upstream art, no maker's name or logo) in the
+"""Draw the realistic JN-106 skin: a panel and controls drawn from scratch (no upstream art, no maker's name or logo) in the
 style of a late-1980s polyphonic synth: charcoal panel, red section headers, black fader caps with a white line, bevelled colour
 keys with LEDs, rocker switches, black knobs. Five 1280 x 628 screens (the same split as skin/make_skin.py, and the same
 parameters and Q-Link pages). Everything is drawn at 2x and cut down, each control as a filmstrip or an on/off pair cropped from
@@ -35,13 +35,14 @@ def font(size, bold=True):
     return ImageFont.truetype(FONT_B if bold else FONT_S, S(size * FONT_SCALE))
 
 
-def text(im, x, y, s, size, fill=WHITE, anchor="mm", italic=False, bold=True):
+def text(im, x, y, s, size, fill=WHITE, anchor="mm", italic=False, bold=True, stroke=0):
     """Text at plugin pixel (x, y); italic=True skews it."""
     f = font(size, bold)
     l, t, r, b = f.getbbox(s, anchor="ls")
     pad = S(size)
     layer = Image.new("RGBA", (r - l + 2 * pad, S(size) * 2 + 2 * pad), (0, 0, 0, 0))
-    ImageDraw.Draw(layer).text((pad, S(size) + pad), s, font=f, fill=fill + (255,), anchor="ls")
+    ImageDraw.Draw(layer).text((pad, S(size) + pad), s, font=f, fill=fill + (255,), anchor="ls",
+                                  stroke_width=S(stroke), stroke_fill=fill + (255,))   # stroke fakes a bold weight: Michroma has one
     if italic:
         k = 0.2
         layer = layer.transform(layer.size, Image.AFFINE, (1, k, -k * (S(size) + pad), 0, 1, 0), Image.BICUBIC)
@@ -164,7 +165,7 @@ class Tab:
         d.rectangle([0, S(12), S(W), S(14)], fill=(86, 87, 90))
         self.controls = []
         self.lines = []
-        text(self.im, 36, 592, "JU-106", 40, WHITE, "lm")
+        text(self.im, 36, 592, "JN-106", 40, WHITE, "lm", stroke=1.6)
         text(self.im, 250, 596, "SIX-VOICE POLYPHONIC SYNTHESIZER", 15, DIM, "lm", bold=False)
 
     def section(self, x0, x1, label, colour=RED, dark=RED_D):
