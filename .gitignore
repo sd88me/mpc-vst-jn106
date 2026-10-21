@@ -3,3 +3,5 @@ vst/preview/
 dist/
 vst/preview_real/
 vst/vst.json.keep
+docs/*
+!docs/img/
