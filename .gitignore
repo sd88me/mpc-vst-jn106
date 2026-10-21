@@ -1,3 +1,5 @@
 vst/build/
 vst/preview/
 dist/
+vst/preview_real/
+vst/vst.json.keep
