@@ -1,5 +1,5 @@
 {
- "name": "KR-106",
+ "name": "JU-106",
  "params": [
   {
    "key": "tuning",
@@ -340,15 +340,6 @@
     "On"
    ],
    "default": "Off"
-  },
-  {
-   "key": "voices",
-   "name": "Voices",
-   "options": [
-    "6",
-    "8"
-   ],
-   "default": "6"
   },
   {
    "key": "oversample",

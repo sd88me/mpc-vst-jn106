@@ -40,7 +40,6 @@ adsr_mode
 chorus_off
 chorus_i
 chorus_ii
-voices
 oversample
 osc_mode
 ignore_vel

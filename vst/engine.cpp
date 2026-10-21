@@ -12,6 +12,9 @@
 extern "C" {
 #include "engine.h"
 }
+#ifndef KR106_OS_DEFAULT
+#define KR106_OS_DEFAULT 0   /* option index; bench builds override */
+#endif
 #include "dsp/KR106_DSP.h"
 
 namespace {
@@ -57,7 +60,7 @@ const P PARAMS[] = {
     {"env_a", kEnvA, 0.25f},         {"env_d", kEnvD, 0.25f},          {"env_s", kEnvS, 0.9f},
     {"env_r", kEnvR, 0.25f},         {"adsr_mode", kAdsrMode, 1},
     {"chorus_off", kSetChorusOff, 0}, {"chorus_i", kChorusI, 1},       {"chorus_ii", kChorusII, 0},
-    {"voices", kSetVoices, 0},       {"oversample", kSetOversample, 0}, {"osc_mode", kSetOscMode, 1},
+    {"oversample", kSetOversample, KR106_OS_DEFAULT}, {"osc_mode", kSetOscMode, 1},
     {"ignore_vel", kSetIgnoreVel, 1}, {"arp_limit_kbd", kSetArpLimitKbd, 1}, {"mono_retrig", kSetMonoRetrig, 1},
 };
 const int NP = (int)(sizeof PARAMS / sizeof PARAMS[0]);
@@ -73,13 +76,13 @@ struct Inst {
     KR106DSP<float> dsp;
     float val[64];                 /* current value of every PARAMS[] entry, in its own units */
     float master_vol;              /* squared taper, as the processor sets mDSP.mMasterVol each block */
-    int voices_opt, os_opt;        /* option indices of "voices" (6/8) and "oversample" (1/2) */
+    int os_opt;                    /* option index of "oversample" (1x/2x; 4x costs 53% of a block with 6 voices on a Force) */
     bool transpose_mode;
     int changed[16], nchanged;     /* keys the engine moved itself (CC, chorus off): mpc_engine_changed() */
     float *ch[2];
     float lbuf[128], rbuf[128];
 
-    Inst() : dsp(6), master_vol(0.09f), voices_opt(0), os_opt(0), transpose_mode(false), nchanged(0) {
+    Inst() : dsp(6), master_vol(0.09f), os_opt(0), transpose_mode(false), nchanged(0) {
         ch[0] = lbuf; ch[1] = rbuf;
         dsp.Reset(44100.0, 128);
         dsp.SetDriftAmount(0.25f);   /* the synth's default ("recently calibrated") */
@@ -107,15 +110,9 @@ struct Inst {
             master_vol = v * v;
             dsp.mMasterVol = master_vol;
             break;
-        case kSetVoices: {
-            int o = (int)lroundf(v);
-            voices_opt = o < 0 ? 0 : o > 1 ? 1 : o;   /* 10 voices is left out with 4x oversampling: too much for one Force audio worker */
-            dsp.SetActiveVoices(6 + 2 * voices_opt);
-            break;
-        }
         case kSetOversample: {
             int o = (int)lroundf(v);
-            os_opt = o < 0 ? 0 : o > 1 ? 1 : o;   /* 4x is left out: with 10 voices it costs a whole 128-frame block on a Force */
+            os_opt = o < 0 ? 0 : o > 1 ? 1 : o;
             dsp.SetOversample(1 << os_opt);
             break;
         }

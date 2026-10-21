@@ -59,7 +59,6 @@ PARAMS = [
     dict(o("chorus_off", "Chorus Off", ONOFF, "Off"), momentary=True),
     o("chorus_i", "Chorus I", ONOFF, "On"),
     o("chorus_ii", "Chorus II", ONOFF, "Off"),
-    o("voices", "Voices", ["6", "8"], "6"),
     o("oversample", "VCF Oversample", ["1x", "2x"], "1x"),
     o("osc_mode", "Oscillators", ["Wavetable", "PolyBLEP"], "PolyBLEP"),
     o("ignore_vel", "Ignore Velocity", ONOFF, "On"),
@@ -69,5 +68,5 @@ PARAMS = [
 
 if __name__ == "__main__":
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "vst", "params.json")
-    json.dump({"name": "KR-106", "params": PARAMS}, open(out, "w"), indent=1)
+    json.dump({"name": "JU-106", "params": PARAMS}, open(out, "w"), indent=1)
     print(len(PARAMS), "parameters")
