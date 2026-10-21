@@ -1,7 +1,7 @@
 {
   "name": "JU-106",
   "vendor": "sd88me",
-  "uid": "K106",
+  "uid": "J106",
   "version": 1000,
   "targets": [
     "armv7",

@@ -13,7 +13,7 @@ extern "C" {
 #include "engine.h"
 }
 #ifndef KR106_OS_DEFAULT
-#define KR106_OS_DEFAULT 0   /* option index; bench builds override */
+#define KR106_OS_DEFAULT 1   /* option index; bench builds override */
 #endif
 #include "dsp/KR106_DSP.h"
 

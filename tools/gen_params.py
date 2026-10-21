@@ -59,7 +59,7 @@ PARAMS = [
     dict(o("chorus_off", "Chorus Off", ONOFF, "Off"), momentary=True),
     o("chorus_i", "Chorus I", ONOFF, "On"),
     o("chorus_ii", "Chorus II", ONOFF, "Off"),
-    o("oversample", "VCF Oversample", ["1x", "2x"], "1x"),
+    o("oversample", "VCF Oversample", ["1x", "2x"], "2x"),
     o("osc_mode", "Oscillators", ["Wavetable", "PolyBLEP"], "PolyBLEP"),
     o("ignore_vel", "Ignore Velocity", ONOFF, "On"),
     o("arp_limit_kbd", "Arp Limit Keyboard", ONOFF, "On"),

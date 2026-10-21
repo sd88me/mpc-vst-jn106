@@ -16,8 +16,8 @@ import re
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FONT_B = os.path.join(HERE, "assets", "TitilliumWeb-Bold.ttf")
-FONT_S = os.path.join(HERE, "assets", "TitilliumWeb-SemiBold.ttf")
+FONT_B = FONT_S = os.path.join(HERE, "assets", "Michroma-Regular.ttf")
+FONT_SCALE = 0.72   # Michroma is a wide face: same labels at the old sizes would not fit
 W, H, Y_OFF, SS = 1280, 628, 86, 2
 
 PANEL = (54, 55, 58)
@@ -32,11 +32,11 @@ def S(v):
 
 
 def font(size, bold=True):
-    return ImageFont.truetype(FONT_B if bold else FONT_S, S(size))
+    return ImageFont.truetype(FONT_B if bold else FONT_S, S(size * FONT_SCALE))
 
 
-def text(im, x, y, s, size, fill=WHITE, anchor="mm", italic=True, bold=True):
-    """Text at plugin pixel (x, y), skewed to italics."""
+def text(im, x, y, s, size, fill=WHITE, anchor="mm", italic=False, bold=True):
+    """Text at plugin pixel (x, y); italic=True skews it."""
     f = font(size, bold)
     l, t, r, b = f.getbbox(s, anchor="ls")
     pad = S(size)
@@ -165,7 +165,7 @@ class Tab:
         self.controls = []
         self.lines = []
         text(self.im, 36, 592, "JU-106", 40, WHITE, "lm")
-        text(self.im, 176, 596, "SIX-VOICE POLYPHONIC SYNTHESIZER", 15, DIM, "lm", bold=False)
+        text(self.im, 250, 596, "SIX-VOICE POLYPHONIC SYNTHESIZER", 15, DIM, "lm", bold=False)
 
     def section(self, x0, x1, label, colour=RED, dark=RED_D):
         rrect(self.im, (x0, 26, x1, 66), 2, grad=(colour, dark))
@@ -206,7 +206,7 @@ Y0, Y1 = 150, 450          # a fader's travel (plugin pixels)
 
 def slider_at(t, key, cx, name, labels=None, ticks=11, frames=33, vals=None, y0=Y0, y1=Y1, nums=False, side=22):
     t.slot(cx, y0, y1, ticks=ticks, labels=labels, numbers=nums and ticks == 11, side=side)
-    t.label(cx, y0 - 36, name, 18)
+    t.label(cx, y0 - 36, name, 15)
     t.add(kind="slider", key=key, cx=cx, y0=y0, y1=y1, frames=frames, vals=vals)
 
 
@@ -221,11 +221,11 @@ def rocker_at(t, key, cx, cy, labels, n, horizontal=False, name=None, length=96,
     pitch = (length - 44) / max(1, n - 1)
     for i, s in enumerate(labels):
         if horizontal and ends:   # the two labels outside the ends of the slot
-            t.label(cx - length / 2 - 16 if i == 0 else cx + length / 2 + 16, cy, s, 16, anchor="rm" if i == 0 else "lm")
+            t.label(cx - length / 2 - 16 if i == 0 else cx + length / 2 + 16, cy, s, 13, anchor="rm" if i == 0 else "lm")
         elif horizontal:
-            t.label(cx - length / 2 + 22 + i * pitch, cy + 46, s, 16)
+            t.label(cx - length / 2 + 22 + i * pitch, cy + 46, s, 13)
         else:
-            t.label(cx + 34, cy - length / 2 + 22 + i * pitch, s, 16, anchor="lm")
+            t.label(cx + 34, cy - length / 2 + 22 + i * pitch, s, 13, anchor="lm")
     t.add(kind="rocker", key=key, cx=cx, cy=cy, n=n, horizontal=horizontal, length=length)
 
 
@@ -247,7 +247,7 @@ def tab_lfo_dco():
     t.section(20, 372, "LFO")
     slider_at(t, "lfo_rate", 90, "RATE", nums=True)
     slider_at(t, "lfo_delay", 190, "DELAY")
-    rocker_at(t, "lfo_mode", 296, 300, ["AUTO", "MAN"], 2, name="MODE")
+    rocker_at(t, "lfo_mode", 282, 300, ["AUTO", "MAN"], 2, name="MODE")
     t.section(384, 1096, "DCO")
     slider_at(t, "dco_lfo", 446, "LFO", nums=True)
     slider_at(t, "dco_pwm", 536, "PWM")
