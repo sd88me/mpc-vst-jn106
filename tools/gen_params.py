@@ -64,6 +64,8 @@ PARAMS = [
     o("ignore_vel", "Ignore Velocity", ONOFF, "On"),
     o("arp_limit_kbd", "Arp Limit Keyboard", ONOFF, "On"),
     o("mono_retrig", "Mono Retrigger", ONOFF, "On"),
+    o("arp_sync", "Arp Sync", ONOFF, "Off"),
+    o("arp_div", "Arp Division", ["1/1", "1/2", "1/4", "1/4T", "1/8", "1/8T", "1/16", "1/16T", "1/32"], "1/16"),
 ]
 
 if __name__ == "__main__":

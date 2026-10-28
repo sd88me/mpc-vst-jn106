@@ -385,6 +385,31 @@
     "On"
    ],
    "default": "On"
+  },
+  {
+   "key": "arp_sync",
+   "name": "Arp Sync",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": "Off"
+  },
+  {
+   "key": "arp_div",
+   "name": "Arp Division",
+   "options": [
+    "1/1",
+    "1/2",
+    "1/4",
+    "1/4T",
+    "1/8",
+    "1/8T",
+    "1/16",
+    "1/16T",
+    "1/32"
+   ],
+   "default": "1/16"
   }
  ]
 }

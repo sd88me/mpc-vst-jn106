@@ -48,7 +48,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -100,7 +102,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -152,7 +156,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -204,7 +210,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -256,7 +264,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -308,7 +318,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -360,7 +372,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -412,7 +426,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -464,7 +480,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -516,7 +534,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -568,7 +588,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -620,7 +642,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -672,7 +696,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -724,7 +750,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -776,7 +804,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -828,7 +858,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -880,7 +912,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -932,7 +966,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -984,7 +1020,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1036,7 +1074,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1088,7 +1128,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1140,7 +1182,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1192,7 +1236,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1244,7 +1290,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1296,7 +1344,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1348,7 +1398,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1400,7 +1452,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1452,7 +1506,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1504,7 +1560,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1556,7 +1614,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1608,7 +1668,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1660,7 +1722,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1712,7 +1776,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1764,7 +1830,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1816,7 +1884,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1868,7 +1938,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1920,7 +1992,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -1972,7 +2046,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2024,7 +2100,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2076,7 +2154,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2128,7 +2208,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2180,7 +2262,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2232,7 +2316,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2284,7 +2370,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2336,7 +2424,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2388,7 +2478,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2440,7 +2532,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2492,7 +2586,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2544,7 +2640,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2596,7 +2694,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2648,7 +2748,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2700,7 +2802,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2752,7 +2856,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2804,7 +2910,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2856,7 +2964,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2908,7 +3018,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -2960,7 +3072,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3012,7 +3126,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3064,7 +3180,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3116,7 +3234,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3168,7 +3288,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3220,7 +3342,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3272,7 +3396,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3324,7 +3450,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3376,7 +3504,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3428,7 +3558,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3480,7 +3612,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3532,7 +3666,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3584,7 +3720,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3636,7 +3774,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3688,7 +3828,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3740,7 +3882,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3792,7 +3936,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3844,7 +3990,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3896,7 +4044,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -3948,7 +4098,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4000,7 +4152,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4052,7 +4206,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4104,7 +4260,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4156,7 +4314,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4208,7 +4368,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4260,7 +4422,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4312,7 +4476,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4364,7 +4530,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4416,7 +4584,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4468,7 +4638,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4520,7 +4692,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4572,7 +4746,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4624,7 +4800,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4676,7 +4854,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4728,7 +4908,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4780,7 +4962,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4832,7 +5016,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4884,7 +5070,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4936,7 +5124,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -4988,7 +5178,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5040,7 +5232,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5092,7 +5286,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5144,7 +5340,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5196,7 +5394,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5248,7 +5448,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5300,7 +5502,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5352,7 +5556,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5404,7 +5610,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5456,7 +5664,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5508,7 +5718,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5560,7 +5772,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5612,7 +5826,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5664,7 +5880,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5716,7 +5934,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5768,7 +5988,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5820,7 +6042,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5872,7 +6096,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5924,7 +6150,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -5976,7 +6204,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6028,7 +6258,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6080,7 +6312,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6132,7 +6366,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6184,7 +6420,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6236,7 +6474,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6288,7 +6528,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6340,7 +6582,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6392,7 +6636,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6444,7 +6690,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6496,7 +6744,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6548,7 +6798,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6600,7 +6852,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6652,7 +6906,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6704,7 +6960,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6756,7 +7014,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6808,7 +7068,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6860,7 +7122,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6912,7 +7176,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -6964,7 +7230,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7016,7 +7284,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7068,7 +7338,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7120,7 +7392,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7172,7 +7446,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7224,7 +7500,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7276,7 +7554,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7328,7 +7608,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7380,7 +7662,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7432,7 +7716,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7484,7 +7770,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7536,7 +7824,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7588,7 +7878,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7640,7 +7932,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7692,7 +7986,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7744,7 +8040,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7796,7 +8094,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7848,7 +8148,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7900,7 +8202,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -7952,7 +8256,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8004,7 +8310,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8056,7 +8364,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8108,7 +8418,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8160,7 +8472,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8212,7 +8526,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8264,7 +8580,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8316,7 +8634,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8368,7 +8688,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8420,7 +8742,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8472,7 +8796,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8524,7 +8850,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8576,7 +8904,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8628,7 +8958,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8680,7 +9012,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8732,7 +9066,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8784,7 +9120,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8836,7 +9174,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8888,7 +9228,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8940,7 +9282,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -8992,7 +9336,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9044,7 +9390,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9096,7 +9444,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9148,7 +9498,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9200,7 +9552,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9252,7 +9606,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9304,7 +9660,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9356,7 +9714,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9408,7 +9768,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9460,7 +9822,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9512,7 +9876,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9564,7 +9930,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9616,7 +9984,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9668,7 +10038,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9720,7 +10092,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9772,7 +10146,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9824,7 +10200,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9876,7 +10254,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9928,7 +10308,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -9980,7 +10362,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10032,7 +10416,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10084,7 +10470,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10136,7 +10524,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10188,7 +10578,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10240,7 +10632,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10292,7 +10686,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10344,7 +10740,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10396,7 +10794,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10448,7 +10848,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10500,7 +10902,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10552,7 +10956,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10604,7 +11010,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10656,7 +11064,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10708,7 +11118,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10760,7 +11172,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10812,7 +11226,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10864,7 +11280,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10916,7 +11334,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -10968,7 +11388,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11020,7 +11442,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11072,7 +11496,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11124,7 +11550,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11176,7 +11604,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11228,7 +11658,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11280,7 +11712,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11332,7 +11766,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11384,7 +11820,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11436,7 +11874,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11488,7 +11928,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11540,7 +11982,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11592,7 +12036,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11644,7 +12090,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11696,7 +12144,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11748,7 +12198,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11800,7 +12252,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11852,7 +12306,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11904,7 +12360,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -11956,7 +12414,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12008,7 +12468,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12060,7 +12522,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12112,7 +12576,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12164,7 +12630,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12216,7 +12684,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12268,7 +12738,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12320,7 +12792,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12372,7 +12846,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12424,7 +12900,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12476,7 +12954,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12528,7 +13008,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12580,7 +13062,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12632,7 +13116,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12684,7 +13170,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12736,7 +13224,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12788,7 +13278,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12840,7 +13332,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12892,7 +13386,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12944,7 +13440,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -12996,7 +13494,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13048,7 +13548,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13100,7 +13602,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13152,7 +13656,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13204,7 +13710,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13256,7 +13764,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ],
  [
@@ -13308,7 +13818,9 @@
    "osc_mode": 1,
    "ignore_vel": 1,
    "arp_limit_kbd": 1,
-   "mono_retrig": 1
+   "mono_retrig": 1,
+   "arp_sync": 0,
+   "arp_div": 6
   }
  ]
 ]

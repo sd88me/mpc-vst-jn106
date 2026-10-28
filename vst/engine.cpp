@@ -37,7 +37,7 @@ enum {
     kNumDsp,
     /* settings the processor keeps outside the DSP's SetParam */
     kSetVoices = 100, kSetOversample, kSetIgnoreVel, kSetArpLimitKbd, kSetMonoRetrig, kSetOscMode,
-    kSetChorusOff,
+    kSetChorusOff, kSetArpSync, kSetArpDiv,
 };
 
 struct P { const char *key; int id; float def; };
@@ -62,6 +62,7 @@ const P PARAMS[] = {
     {"chorus_off", kSetChorusOff, 0}, {"chorus_i", kChorusI, 1},       {"chorus_ii", kChorusII, 0},
     {"oversample", kSetOversample, KR106_OS_DEFAULT}, {"osc_mode", kSetOscMode, 1},
     {"ignore_vel", kSetIgnoreVel, 1}, {"arp_limit_kbd", kSetArpLimitKbd, 1}, {"mono_retrig", kSetMonoRetrig, 1},
+    {"arp_sync", kSetArpSync, 0},    {"arp_div", kSetArpDiv, 6},
 };
 const int NP = (int)(sizeof PARAMS / sizeof PARAMS[0]);
 
@@ -78,11 +79,12 @@ struct Inst {
     float master_vol;              /* squared taper, as the processor sets mDSP.mMasterVol each block */
     int os_opt;                    /* option index of "oversample" (1x/2x; 4x costs 53% of a block with 6 voices on a Force) */
     bool transpose_mode;
+    bool arp_sync, host_ok;        /* ARP SYNC on; the host gave a tempo this block */
     int changed[16], nchanged;     /* keys the engine moved itself (CC, chorus off): mpc_engine_changed() */
     float *ch[2];
     float lbuf[128], rbuf[128];
 
-    Inst() : dsp(6), master_vol(0.09f), os_opt(0), transpose_mode(false), nchanged(0) {
+    Inst() : dsp(6), master_vol(0.09f), os_opt(0), transpose_mode(false), arp_sync(false), host_ok(false), nchanged(0) {
         ch[0] = lbuf; ch[1] = rbuf;
         dsp.Reset(44100.0, 128);
         dsp.SetDriftAmount(0.25f);   /* the synth's default ("recently calibrated") */
@@ -118,6 +120,8 @@ struct Inst {
         }
         case kSetIgnoreVel: dsp.mIgnoreVelocity = v > 0.5f; break;
         case kSetArpLimitKbd: dsp.mArp.mLimitToKeyboard = v > 0.5f; break;
+        case kSetArpSync: arp_sync = v > 0.5f; dsp.mArp.mSyncToHost = arp_sync && host_ok; break;
+        case kSetArpDiv: { int d = (int)lroundf(v); dsp.mArp.mDivision = d < 0 ? 0 : d > 8 ? 8 : d; break; }
         case kSetMonoRetrig: dsp.mMonoRetrigger = v > 0.5f; break;
         case kSetOscMode: {
             int m = (int)lroundf(v);
@@ -262,7 +266,21 @@ void render(void *p, int16_t *out, int frames) {
     }
 }
 
-const mpc_engine_t api = {create, destroy, midi, set_param, get_param, render, nullptr, nullptr};
+/* Once per host block, before render(): the arpeggiator follows the host's tempo and beat grid while ARP SYNC is on (and free-runs
+ * at the tempo when the transport is stopped), else the RATE slider. No tempo from the host (bpm 0) means the slider. */
+void song_pos(void *p, double ppq, double bpm, int playing, int) {
+    Inst *e = (Inst *)p;
+    e->host_ok = bpm > 0 && ppq >= 0;
+    kr106::Arpeggiator &a = e->dsp.mArp;
+    a.mSyncToHost = e->arp_sync && e->host_ok;
+    if (e->host_ok) {
+        a.mHostBPM = bpm;
+        a.mHostBeatPos = ppq;
+        a.mHostPlaying = playing != 0;
+    }
+}
+
+const mpc_engine_t api = {create, destroy, midi, set_param, get_param, render, nullptr, song_pos};
 
 }  // namespace
 

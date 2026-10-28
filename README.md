@@ -14,9 +14,13 @@ been run on a device. CPU on the Force (`tools/bench.sh`, six held notes): 2x ov
 1x about 20%; a fast Q-Link sweep peaks near 47% at p99 (FAIL class). Use 1x on a busy project.
 
 ## Screens
-LFO / DCO / HPF, FILTER / AMP / ENV (with chorus), ARP (with TRANS and HOLD), PERFORM (volume, portamento, bender depths,
+LFO / DCO / HPF, FILTER / AMP / ENV (with chorus), ARP (with TRANS, HOLD and tempo SYNC), PERFORM (volume, portamento, bender depths,
 tuning) and SETTINGS (VCF oversampling 1x/2x, wavetable or PolyBLEP oscillators, ignore velocity, arp limit, mono
 retrigger). The keybed and scope are left out. Each screen except SETTINGS has its own Q-Link page.
+
+**Arp tempo sync:** with SYNC on, the arpeggiator follows the host tempo and beat grid and the DIV slider picks the note
+value (1/1 to 1/32, with triplets); the RATE slider is used when SYNC is off. Q-Link columns now group each part of the
+panel, and MPC outlines the column in use (so CC 20-35 map to a different order than 0.1.0).
 
 ## Presets
 All 256 factory presets are in the instruments browser (Sounds > Instruments > JN-106) and in MPC's PRESET list

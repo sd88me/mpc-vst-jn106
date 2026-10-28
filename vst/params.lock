@@ -45,3 +45,5 @@ osc_mode
 ignore_vel
 arp_limit_kbd
 mono_retrig
+arp_sync
+arp_div
